@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     kotlin("kapt")
     id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
     alias(libs.plugins.ksp)
 
 }
@@ -70,8 +71,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     // Paging
-    implementation ("androidx.paging:paging-runtime:3.3.0")
-    implementation ("androidx.paging:paging-compose:3.3.0")
+    implementation (libs.androidx.paging.runtime)
+    implementation (libs.androidx.paging.compose)
 
 // Retrofit + Gson
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
@@ -79,7 +80,11 @@ dependencies {
 
 // Hilt
     implementation ("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
     implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
+
+    //Coil
+    implementation("io.coil-kt:coil-compose:2.4.0") // Add Coil Compose dependency
 
 }
 kapt{
