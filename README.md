@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/78cb47c3-26ed-4763-a936-75f2d156cf69
 
 ---
 
-## 🚀 Features
+## 🚀 Features:
 
 - 🧠 **Pagination with Paging 3** — Efficient and smooth infinite scrolling
 - 🧑‍🚀 **Rick and Morty API Integration**
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/78cb47c3-26ed-4763-a936-75f2d156cf69
 
 ---
 
-## 🧪 Tech Stack
+## 🧪 Tech Stack:
 
 - 🟣 Kotlin
 - 🟢 Jetpack Compose
