@@ -6,7 +6,7 @@ An Android app built with **Jetpack Paging 3**, Kotlin, and **Jetpack Compose** 
 
 ## 📸 Demo
 
-https://github.com/user-attachments/assets/78cb47c3-26ed-4763-a936-75f2d156cf69
+![Image](https://github.com/user-attachments/assets/a3dd0ec7-6d79-4dd3-a4a0-85264464fde7)
 
 ---
 
